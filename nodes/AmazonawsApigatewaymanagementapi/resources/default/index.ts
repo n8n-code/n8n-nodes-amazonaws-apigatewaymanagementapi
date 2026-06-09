@@ -73,7 +73,7 @@ export const defaultDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Connection Id",
+			"displayName": "Connection ID",
 			"name": "connectionId",
 			"required": true,
 			"description": "",
@@ -135,7 +135,7 @@ export const defaultDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Connection Id",
+			"displayName": "Connection ID",
 			"name": "connectionId",
 			"required": true,
 			"description": "",
@@ -197,7 +197,7 @@ export const defaultDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Connection Id",
+			"displayName": "Connection ID",
 			"name": "connectionId",
 			"required": true,
 			"description": "The identifier of the connection that a specific client is using.",

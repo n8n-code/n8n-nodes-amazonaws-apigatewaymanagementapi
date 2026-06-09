@@ -53,9 +53,14 @@ That's it. No configuration files. No code. It just works.
 
 ## Resources
 
-| Resource | Operations |
-|----------|------------|
-| Default | Delete connection, Get connection, Post to connection |
+<details>
+<summary><b>Default</b> (3 operations)</summary>
+
+- Delete Connection
+- Get Connection
+- Post To Connection
+
+</details>
 
 ---
 

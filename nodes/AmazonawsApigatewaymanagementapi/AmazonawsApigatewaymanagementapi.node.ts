@@ -3,14 +3,14 @@ import { defaultDescription } from './resources/default';
 
 export class AmazonawsApigatewaymanagementapi implements INodeType {
 	description: INodeTypeDescription = {
-		displayName: 'amazonaws-apigatewaymanagementapi',
+		displayName: 'Amazonaws Apigatewaymanagementapi',
 		name: 'N8nDevAmazonawsApigatewaymanagementapi',
 		icon: { light: 'file:./amazonaws-apigatewaymanagementapi.png', dark: 'file:./amazonaws-apigatewaymanagementapi.dark.png' },
 		group: ['input'],
 		version: 1,
 		subtitle: '={{\$parameter["operation"] + ": " + \$parameter["resource"]}}',
-		description: 'Amazon API Gateway Management API allows you to directly manage runtime aspects of your deployed APIs. To use it, you must explicitly set the SDK\'s endpoint to point to the endpoint of your dep..',
-		defaults: { name: 'amazonaws-apigatewaymanagementapi' },
+		description: 'Manage deployed APIs\' runtime via SDK endpoint configuration.',
+		defaults: { name: 'Amazonaws Apigatewaymanagementapi' },
 		usableAsTool: true,
 		inputs: [NodeConnectionTypes.Main],
 		outputs: [NodeConnectionTypes.Main],

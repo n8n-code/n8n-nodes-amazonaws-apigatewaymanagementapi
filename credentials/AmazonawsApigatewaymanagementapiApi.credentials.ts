@@ -8,7 +8,7 @@ import type {
 export class AmazonawsApigatewaymanagementapiApi implements ICredentialType {
 	name = 'N8nDevAmazonawsApigatewaymanagementapiApi';
 
-	displayName = 'amazonaws-apigatewaymanagementapi API';
+	displayName = 'Amazonaws Apigatewaymanagementapi';
 
 	icon: Icon = { light: 'file:../nodes/AmazonawsApigatewaymanagementapi/amazonaws-apigatewaymanagementapi.png', dark: 'file:../nodes/AmazonawsApigatewaymanagementapi/amazonaws-apigatewaymanagementapi.dark.png' };
 
@@ -22,7 +22,7 @@ export class AmazonawsApigatewaymanagementapiApi implements ICredentialType {
 			default: '',
 			required: true,
 			placeholder: 'http://execute-api.us-east-1.amazonaws.com',
-			description: 'The base URL of your amazonaws-apigatewaymanagementapi API server',
+			description: 'The base URL of your Amazonaws Apigatewaymanagementapi server',
 		},
 		{
 			displayName: 'API Key',
